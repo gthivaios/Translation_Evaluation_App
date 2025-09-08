@@ -89,7 +89,7 @@ with st.sidebar:
     st.header("Database Configuration")
     
     # Database connection settings
-    db_host = st.text_input("Database Host", value="localhost")
+    db_host = st.text_input("Database Host", value="195.251.12.136")
     db_user = st.text_input("Database User", value="root")
     db_password = st.text_input("Database Password", type="password", value="dm@lab172")
     db_name = st.text_input("Database Name", value="jobsposting_sample")
