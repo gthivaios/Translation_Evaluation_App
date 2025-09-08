@@ -114,7 +114,7 @@ with st.sidebar:
                 
                 # Fetch data from the database
                 cursor = connection.cursor(dictionary=True)
-                query = f"SELECT * FROM {db_table} limit 5"
+                query = f"SELECT * FROM {db_table}"
                 cursor.execute(query)
                 results = cursor.fetchall()
                 
