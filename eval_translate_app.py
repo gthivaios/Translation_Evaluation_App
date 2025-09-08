@@ -153,7 +153,7 @@ with st.sidebar:
     use_ollama = st.checkbox("Use Ollama for additional translation", value=False)
     
     if use_ollama:
-        ollama_base_url = st.text_input("Ollama Base URL", value="http://127.0.0.1:11434/v1")
+        ollama_base_url = st.text_input("Ollama Base URL", value="http://195.251.12.136:11434/v1")
         ollama_api_key = st.text_input("Ollama API Key", value="ollama", type="password")
         
         # Ollama model selection
